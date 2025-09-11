@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/main"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView android:text="Login:" android:padding="8dp"/>
+        <EditText android:inputType="text"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Hasło:" android:padding="8dp"/>
+        <EditText android:inputType="textPassword"/>
+    </TableRow>
+    <TableRow
+        android:gravity="center">
+        <Button
+            android:text="Zarejestruj"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:text="Anuluj"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"/>
+    </TableRow>
+</TableLayout>
+
+
