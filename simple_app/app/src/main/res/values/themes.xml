@@ -1,8 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Simple_app" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="MyButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/button_background_color</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="Theme.Simple_app" parent="Base.Theme.Simple_app" />
